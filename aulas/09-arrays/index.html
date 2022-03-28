@@ -7,13 +7,14 @@
       <meta name="viewport" content="width=device-width,initial-scale=1">
       
       
+      
         <meta name="author" content="Igor Montagner, Maciel Calebe Vidal">
       
       
         <link rel="canonical" href="https://insper.github.io/SistemasHardwareSoftware/aulas/09-arrays/">
       
       <link rel="icon" href="../../assets/images/favicon.png">
-      <meta name="generator" content="mkdocs-1.3.0, mkdocs-material-8.2.8">
+      <meta name="generator" content="mkdocs-1.2.2, mkdocs-material-7.2.4">
     
     
       
@@ -21,10 +22,10 @@
       
     
     
-      <link rel="stylesheet" href="../../assets/stylesheets/main.644de097.min.css">
+      <link rel="stylesheet" href="../../assets/stylesheets/main.f7f47774.min.css">
       
         
-        <link rel="stylesheet" href="../../assets/stylesheets/palette.e6a45f82.min.css">
+        <link rel="stylesheet" href="../../assets/stylesheets/palette.3f5d1f46.min.css">
         
           
           
@@ -36,18 +37,18 @@
     
       
         
-        
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,300i,400,400i,700,700i%7CRoboto+Mono:400,400i,700,700i&display=fallback">
-        <style>:root{--md-text-font:"Roboto";--md-code-font:"Roboto Mono"}</style>
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,400,400i,700%7CRoboto+Mono&display=fallback">
+        <style>:root{--md-text-font-family:"Roboto";--md-code-font-family:"Roboto Mono"}</style>
       
+    
     
     
       <link rel="stylesheet" href="../../css/termynal.css">
     
-    <script>__md_scope=new URL("../..",location),__md_get=(e,_=localStorage,t=__md_scope)=>JSON.parse(_.getItem(t.pathname+"."+e)),__md_set=(e,_,t=localStorage,a=__md_scope)=>{try{t.setItem(a.pathname+"."+e,JSON.stringify(_))}catch(e){}}</script>
     
       
+
 
     
     
@@ -71,6 +72,7 @@
     <body dir="ltr" data-md-color-scheme="preference" data-md-color-primary="brown" data-md-color-accent="amber">
   
     
+    <script>function __prefix(e){return new URL("../..",location).pathname+"."+e}function __get(e,t=localStorage){return JSON.parse(t.getItem(__prefix(e)))}</script>
     
     <input class="md-toggle" data-md-toggle="drawer" type="checkbox" id="__drawer" autocomplete="off">
     <input class="md-toggle" data-md-toggle="search" type="checkbox" id="__search" autocomplete="off">
@@ -87,10 +89,7 @@
       
     </div>
     
-    
-      
-
-<header class="md-header" data-md-component="header">
+      <header class="md-header" data-md-component="header">
   <nav class="md-header__inner md-grid" aria-label="Header">
     <a href="../.." title="Sistemas Hardware-Software - 2022/1" class="md-header__button md-logo" aria-label="Sistemas Hardware-Software - 2022/1" data-md-component="logo">
       
@@ -123,7 +122,8 @@
       <label class="md-header__button md-icon" for="__search">
         <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.516 6.516 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5z"/></svg>
       </label>
-      <div class="md-search" data-md-component="search" role="dialog">
+      
+<div class="md-search" data-md-component="search" role="dialog">
   <label class="md-search__overlay" for="__search"></label>
   <div class="md-search__inner" role="search">
     <form class="md-search__form" name="search">
@@ -155,10 +155,11 @@
     
     
       <div class="md-header__source">
-        <a href="https://github.com/Insper/SistemasHardwareSoftware/" title="Go to repository" class="md-source" data-md-component="source">
+        
+<a href="https://github.com/Insper/SistemasHardwareSoftware/" title="Go to repository" class="md-source" data-md-component="source">
   <div class="md-source__icon md-icon">
     
-    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><!--! Font Awesome Free 6.1.1 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2022 Fonticons, Inc.--><path d="M439.55 236.05 244 40.45a28.87 28.87 0 0 0-40.81 0l-40.66 40.63 51.52 51.52c27.06-9.14 52.68 16.77 43.39 43.68l49.66 49.66c34.23-11.8 61.18 31 35.47 56.69-26.49 26.49-70.21-2.87-56-37.34L240.22 199v121.85c25.3 12.54 22.26 41.85 9.08 55a34.34 34.34 0 0 1-48.55 0c-17.57-17.6-11.07-46.91 11.25-56v-123c-20.8-8.51-24.6-30.74-18.64-45L142.57 101 8.45 235.14a28.86 28.86 0 0 0 0 40.81l195.61 195.6a28.86 28.86 0 0 0 40.8 0l194.69-194.69a28.86 28.86 0 0 0 0-40.81z"/></svg>
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><path d="M439.55 236.05 244 40.45a28.87 28.87 0 0 0-40.81 0l-40.66 40.63 51.52 51.52c27.06-9.14 52.68 16.77 43.39 43.68l49.66 49.66c34.23-11.8 61.18 31 35.47 56.69-26.49 26.49-70.21-2.87-56-37.34L240.22 199v121.85c25.3 12.54 22.26 41.85 9.08 55a34.34 34.34 0 0 1-48.55 0c-17.57-17.6-11.07-46.91 11.25-56v-123c-20.8-8.51-24.6-30.74-18.64-45L142.57 101 8.45 235.14a28.86 28.86 0 0 0 0 40.81l195.61 195.6a28.86 28.86 0 0 0 40.8 0l194.69-194.69a28.86 28.86 0 0 0 0-40.81z"/></svg>
   </div>
   <div class="md-source__repository">
     sistemashardwaresoftware
@@ -167,14 +168,11 @@
       </div>
     
   </nav>
-  
 </header>
     
     <div class="md-container" data-md-component="container">
       
       
-        
-          
         
       
       <main class="md-main" data-md-component="main">
@@ -200,10 +198,11 @@
   </label>
   
     <div class="md-nav__source">
-      <a href="https://github.com/Insper/SistemasHardwareSoftware/" title="Go to repository" class="md-source" data-md-component="source">
+      
+<a href="https://github.com/Insper/SistemasHardwareSoftware/" title="Go to repository" class="md-source" data-md-component="source">
   <div class="md-source__icon md-icon">
     
-    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><!--! Font Awesome Free 6.1.1 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2022 Fonticons, Inc.--><path d="M439.55 236.05 244 40.45a28.87 28.87 0 0 0-40.81 0l-40.66 40.63 51.52 51.52c27.06-9.14 52.68 16.77 43.39 43.68l49.66 49.66c34.23-11.8 61.18 31 35.47 56.69-26.49 26.49-70.21-2.87-56-37.34L240.22 199v121.85c25.3 12.54 22.26 41.85 9.08 55a34.34 34.34 0 0 1-48.55 0c-17.57-17.6-11.07-46.91 11.25-56v-123c-20.8-8.51-24.6-30.74-18.64-45L142.57 101 8.45 235.14a28.86 28.86 0 0 0 0 40.81l195.61 195.6a28.86 28.86 0 0 0 40.8 0l194.69-194.69a28.86 28.86 0 0 0 0-40.81z"/></svg>
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><path d="M439.55 236.05 244 40.45a28.87 28.87 0 0 0-40.81 0l-40.66 40.63 51.52 51.52c27.06-9.14 52.68 16.77 43.39 43.68l49.66 49.66c34.23-11.8 61.18 31 35.47 56.69-26.49 26.49-70.21-2.87-56-37.34L240.22 199v121.85c25.3 12.54 22.26 41.85 9.08 55a34.34 34.34 0 0 1-48.55 0c-17.57-17.6-11.07-46.91 11.25-56v-123c-20.8-8.51-24.6-30.74-18.64-45L142.57 101 8.45 235.14a28.86 28.86 0 0 0 0 40.81l195.61 195.6a28.86 28.86 0 0 0 40.8 0l194.69-194.69a28.86 28.86 0 0 0 0-40.81z"/></svg>
   </div>
   <div class="md-source__repository">
     sistemashardwaresoftware
@@ -258,14 +257,10 @@
       
         <input class="md-nav__toggle md-toggle" data-md-toggle="__nav_3" type="checkbox" id="__nav_3" checked>
       
-      
-      
-      
-        <label class="md-nav__link" for="__nav_3">
-          Aulas
-          <span class="md-nav__icon md-icon"></span>
-        </label>
-      
+      <label class="md-nav__link" for="__nav_3">
+        Aulas
+        <span class="md-nav__icon md-icon"></span>
+      </label>
       <nav class="md-nav" aria-label="Aulas" data-md-level="1">
         <label class="md-nav__title" for="__nav_3">
           <span class="md-nav__icon md-icon"></span>
@@ -274,7 +269,6 @@
         <ul class="md-nav__list" data-md-scrollfix>
           
             
-              
   
   
   
@@ -285,10 +279,8 @@
     </li>
   
 
-            
           
             
-              
   
   
   
@@ -299,10 +291,8 @@
     </li>
   
 
-            
           
             
-              
   
   
   
@@ -313,10 +303,8 @@
     </li>
   
 
-            
           
             
-              
   
   
   
@@ -327,10 +315,8 @@
     </li>
   
 
-            
           
             
-              
   
   
   
@@ -341,10 +327,8 @@
     </li>
   
 
-            
           
             
-              
   
   
   
@@ -355,10 +339,8 @@
     </li>
   
 
-            
           
             
-              
   
   
   
@@ -369,10 +351,8 @@
     </li>
   
 
-            
           
             
-              
   
   
   
@@ -383,10 +363,8 @@
     </li>
   
 
-            
           
             
-              
   
   
     
@@ -410,7 +388,6 @@
       </a>
       
         
-
 <nav class="md-nav md-nav--secondary" aria-label="Table of contents">
   
   
@@ -472,10 +449,8 @@
     </li>
   
 
-            
           
             
-              
   
   
   
@@ -486,7 +461,6 @@
     </li>
   
 
-            
           
         </ul>
       </nav>
@@ -507,14 +481,10 @@
       
         <input class="md-nav__toggle md-toggle" data-md-toggle="__nav_4" type="checkbox" id="__nav_4" >
       
-      
-      
-      
-        <label class="md-nav__link" for="__nav_4">
-          Labs
-          <span class="md-nav__icon md-icon"></span>
-        </label>
-      
+      <label class="md-nav__link" for="__nav_4">
+        Labs
+        <span class="md-nav__icon md-icon"></span>
+      </label>
       <nav class="md-nav" aria-label="Labs" data-md-level="1">
         <label class="md-nav__title" for="__nav_4">
           <span class="md-nav__icon md-icon"></span>
@@ -523,7 +493,6 @@
         <ul class="md-nav__list" data-md-scrollfix>
           
             
-              
   
   
   
@@ -534,7 +503,6 @@
     </li>
   
 
-            
           
         </ul>
       </nav>
@@ -554,7 +522,6 @@
                 <div class="md-sidebar__scrollwrap">
                   <div class="md-sidebar__inner">
                     
-
 <nav class="md-nav md-nav--secondary" aria-label="Table of contents">
   
   
@@ -621,13 +588,12 @@
             <article class="md-content__inner md-typeset">
               
                 
-<a href="https://github.com/Insper/SistemasHardwareSoftware/edit/master/docs/aulas/09-arrays/index.md" title="Edit this page" class="md-content__button md-icon">
-  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20.71 7.04c.39-.39.39-1.04 0-1.41l-2.34-2.34c-.37-.39-1.02-.39-1.41 0l-1.84 1.83 3.75 3.75M3 17.25V21h3.75L17.81 9.93l-3.75-3.75L3 17.25z"/></svg>
-</a>
-
-
-
-<h1 id="09-array-em-assembly">09 - Array em Assembly<a class="headerlink" href="#09-array-em-assembly" title="Permanent link">&para;</a></h1>
+                  <a href="https://github.com/Insper/SistemasHardwareSoftware/edit/master/docs/aulas/09-arrays/index.md" title="Edit this page" class="md-content__button md-icon">
+                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20.71 7.04c.39-.39.39-1.04 0-1.41l-2.34-2.34c-.37-.39-1.02-.39-1.41 0l-1.84 1.83 3.75 3.75M3 17.25V21h3.75L17.81 9.93l-3.75-3.75L3 17.25z"/></svg>
+                  </a>
+                
+                
+                <h1 id="09-array-em-assembly">09 - Array em Assembly<a class="headerlink" href="#09-array-em-assembly" title="Permanent link">&para;</a></h1>
 <p>A parte final de nossas atividades com Assembly é entender <em>Arrays</em>. Já estudamos todo o necessário para lidar com eles:</p>
 <ol>
 <li>um array é representado por um apontador para seu primeiro elemento. Já estudamos ponteiros e a escrita em memória com <code>MOV</code>.</li>
@@ -670,7 +636,7 @@
 </div>
 <h2 id="exemplo-guiado">Exemplo guiado<a class="headerlink" href="#exemplo-guiado" title="Permanent link">&para;</a></h2>
 <p>Dado o array <code>int *vec</code> (guardado em <code>%rdx</code>). A atribuição de 5 ao elemento <code>i</code> (guardado em <code>%ecx</code>) seria traduzida como</p>
-<div class="highlight"><pre><span></span><code><span class="nf">MOVL</span><span class="w"> </span><span class="no">$0x5</span><span class="p">,</span><span class="w"> </span><span class="p">(</span><span class="nv">%rdx</span><span class="p">,</span><span class="w"> </span><span class="nv">%rcx</span><span class="p">,</span><span class="w"> </span><span class="mi">4</span><span class="p">)</span><span class="w"></span>
+<div class="highlight"><pre><span></span><code><span class="nf">MOVL</span> <span class="no">$0x5</span><span class="p">,</span> <span class="p">(</span><span class="nv">%rdx</span><span class="p">,</span> <span class="nv">%rcx</span><span class="p">,</span> <span class="mi">4</span><span class="p">)</span>
 </code></pre></div>
 <div class="admonition warning">
 <p class="admonition-title">Importante</p>
@@ -696,16 +662,16 @@
 </div>
 <h2 id="exercicio-1-funcao-soma">Exercício 1 - função <code>soma</code><a class="headerlink" href="#exercicio-1-funcao-soma" title="Permanent link">&para;</a></h2>
 <p>Veja o código abaixo e responda as perguntas.</p>
-<div class="highlight"><pre><span></span><code><span class="nf">Dump</span><span class="w"> </span><span class="no">of</span><span class="w"> </span><span class="no">assembler</span><span class="w"> </span><span class="no">code</span><span class="w"> </span><span class="no">for</span><span class="w"> </span><span class="no">function</span><span class="w"> </span><span class="no">soma</span><span class="p">:</span><span class="w"></span>
-<span class="w">   </span><span class="err">0</span><span class="nf">x0000</span><span class="w"> </span><span class="err">&lt;+</span><span class="mi">0</span><span class="err">&gt;</span><span class="p">:</span><span class="w">     </span><span class="no">mov</span><span class="w">    </span><span class="no">$0x0</span><span class="p">,</span><span class="nv">%edx</span><span class="w"></span>
-<span class="w">   </span><span class="err">0</span><span class="nf">x0005</span><span class="w"> </span><span class="err">&lt;+</span><span class="mi">5</span><span class="err">&gt;</span><span class="p">:</span><span class="w">     </span><span class="no">mov</span><span class="w">    </span><span class="no">$0x0</span><span class="p">,</span><span class="nv">%eax</span><span class="w"></span>
-<span class="w">   </span><span class="err">0</span><span class="nf">x000a</span><span class="w"> </span><span class="err">&lt;+</span><span class="mi">10</span><span class="err">&gt;</span><span class="p">:</span><span class="w">    </span><span class="no">jmp</span><span class="w">    </span><span class="mh">0x15</span> <span class="p">&lt;</span><span class="no">soma</span><span class="p">+</span><span class="mi">21</span><span class="p">&gt;</span><span class="w"></span>
-<span class="w">   </span><span class="err">0</span><span class="nf">x000c</span><span class="w"> </span><span class="err">&lt;+</span><span class="mi">12</span><span class="err">&gt;</span><span class="p">:</span><span class="w">    </span><span class="no">movslq</span><span class="w"> </span><span class="nv">%edx</span><span class="p">,</span><span class="nv">%rcx</span><span class="w"></span>
-<span class="w">   </span><span class="err">0</span><span class="nf">x000f</span><span class="w"> </span><span class="err">&lt;+</span><span class="mi">15</span><span class="err">&gt;</span><span class="p">:</span><span class="w">    </span><span class="no">add</span><span class="w">    </span><span class="p">(</span><span class="nv">%rdi</span><span class="p">,</span><span class="nv">%rcx</span><span class="p">,</span><span class="mi">4</span><span class="p">),</span><span class="nv">%eax</span><span class="w"></span>
-<span class="w">   </span><span class="err">0</span><span class="nf">x0012</span><span class="w"> </span><span class="err">&lt;+</span><span class="mi">18</span><span class="err">&gt;</span><span class="p">:</span><span class="w">    </span><span class="no">add</span><span class="w">    </span><span class="no">$0x1</span><span class="p">,</span><span class="nv">%edx</span><span class="w"></span>
-<span class="w">   </span><span class="err">0</span><span class="nf">x0015</span><span class="w"> </span><span class="err">&lt;+</span><span class="mi">21</span><span class="err">&gt;</span><span class="p">:</span><span class="w">    </span><span class="no">cmp</span><span class="w">    </span><span class="nv">%esi</span><span class="p">,</span><span class="nv">%edx</span><span class="w"></span>
-<span class="w">   </span><span class="err">0</span><span class="nf">x0017</span><span class="w"> </span><span class="err">&lt;+</span><span class="mi">23</span><span class="err">&gt;</span><span class="p">:</span><span class="w">    </span><span class="no">jl</span><span class="w">     </span><span class="mh">0xc</span> <span class="p">&lt;</span><span class="no">soma</span><span class="p">+</span><span class="mi">12</span><span class="p">&gt;</span><span class="w"></span>
-<span class="w">   </span><span class="err">0</span><span class="nf">x0019</span><span class="w"> </span><span class="err">&lt;+</span><span class="mi">25</span><span class="err">&gt;</span><span class="p">:</span><span class="w">    </span><span class="no">repz</span><span class="w"> </span><span class="no">retq</span><span class="w"></span>
+<div class="highlight"><pre><span></span><code><span class="nf">Dump</span> <span class="no">of</span> <span class="no">assembler</span> <span class="no">code</span> <span class="no">for</span> <span class="no">function</span> <span class="no">soma</span><span class="p">:</span>
+   <span class="err">0</span><span class="nf">x0000</span> <span class="err">&lt;+</span><span class="mi">0</span><span class="err">&gt;</span><span class="p">:</span>     <span class="no">mov</span>    <span class="no">$0x0</span><span class="p">,</span><span class="nv">%edx</span>
+   <span class="err">0</span><span class="nf">x0005</span> <span class="err">&lt;+</span><span class="mi">5</span><span class="err">&gt;</span><span class="p">:</span>     <span class="no">mov</span>    <span class="no">$0x0</span><span class="p">,</span><span class="nv">%eax</span>
+   <span class="err">0</span><span class="nf">x000a</span> <span class="err">&lt;+</span><span class="mi">10</span><span class="err">&gt;</span><span class="p">:</span>    <span class="no">jmp</span>    <span class="mh">0x15</span> <span class="p">&lt;</span><span class="no">soma</span><span class="p">+</span><span class="mi">21</span><span class="p">&gt;</span>
+   <span class="err">0</span><span class="nf">x000c</span> <span class="err">&lt;+</span><span class="mi">12</span><span class="err">&gt;</span><span class="p">:</span>    <span class="no">movslq</span> <span class="nv">%edx</span><span class="p">,</span><span class="nv">%rcx</span>
+   <span class="err">0</span><span class="nf">x000f</span> <span class="err">&lt;+</span><span class="mi">15</span><span class="err">&gt;</span><span class="p">:</span>    <span class="no">add</span>    <span class="p">(</span><span class="nv">%rdi</span><span class="p">,</span><span class="nv">%rcx</span><span class="p">,</span><span class="mi">4</span><span class="p">),</span><span class="nv">%eax</span>
+   <span class="err">0</span><span class="nf">x0012</span> <span class="err">&lt;+</span><span class="mi">18</span><span class="err">&gt;</span><span class="p">:</span>    <span class="no">add</span>    <span class="no">$0x1</span><span class="p">,</span><span class="nv">%edx</span>
+   <span class="err">0</span><span class="nf">x0015</span> <span class="err">&lt;+</span><span class="mi">21</span><span class="err">&gt;</span><span class="p">:</span>    <span class="no">cmp</span>    <span class="nv">%esi</span><span class="p">,</span><span class="nv">%edx</span>
+   <span class="err">0</span><span class="nf">x0017</span> <span class="err">&lt;+</span><span class="mi">23</span><span class="err">&gt;</span><span class="p">:</span>    <span class="no">jl</span>     <span class="mh">0xc</span> <span class="p">&lt;</span><span class="no">soma</span><span class="p">+</span><span class="mi">12</span><span class="p">&gt;</span>
+   <span class="err">0</span><span class="nf">x0019</span> <span class="err">&lt;+</span><span class="mi">25</span><span class="err">&gt;</span><span class="p">:</span>    <span class="no">repz</span> <span class="no">retq</span>
 </code></pre></div>
 <div class="admonition exercise text long">
 <p class="admonition-title">Exercise</p>
@@ -769,13 +735,13 @@ Em <code>&lt;soma+21&gt;</code>, usa-se <code>%esi</code> para <strong>leitura</
 <p>O compilador pode (e vai) aplicar diversas otimizações para economizar o máximo possível. Por essa razão, é importante saber calcular os endereços de memória na mão. Assim conseguimos "refazer" o processo que gerou a otimização e entender melhor o código <em>C</em> original.</p>
 </div>
 <h3 id="exercicio-2-funcao-func_que_recebe_array">Exercício 2 - função <code>func_que_recebe_array</code><a class="headerlink" href="#exercicio-2-funcao-func_que_recebe_array" title="Permanent link">&para;</a></h3>
-<div class="highlight"><pre><span></span><code><span class="nf">Dump</span><span class="w"> </span><span class="no">of</span><span class="w"> </span><span class="no">assembler</span><span class="w"> </span><span class="no">code</span><span class="w"> </span><span class="no">for</span><span class="w"> </span><span class="no">function</span><span class="w"> </span><span class="no">func_que_recebe_array</span><span class="p">:</span><span class="w"></span>
-<span class="w">   </span><span class="err">0</span><span class="nf">x0000</span><span class="w"> </span><span class="err">&lt;+</span><span class="mi">0</span><span class="err">&gt;</span><span class="p">:</span><span class="w">     </span><span class="no">mov</span><span class="w">    </span><span class="mi">0x4</span><span class="p">(</span><span class="nv">%rdi</span><span class="p">),</span><span class="nv">%eax</span><span class="w"></span>
-<span class="w">   </span><span class="err">0</span><span class="nf">x0003</span><span class="w"> </span><span class="err">&lt;+</span><span class="mi">3</span><span class="err">&gt;</span><span class="p">:</span><span class="w">     </span><span class="no">add</span><span class="w">    </span><span class="p">(</span><span class="nv">%rdi</span><span class="p">),</span><span class="nv">%eax</span><span class="w"></span>
-<span class="w">   </span><span class="err">0</span><span class="nf">x0005</span><span class="w"> </span><span class="err">&lt;+</span><span class="mi">5</span><span class="err">&gt;</span><span class="p">:</span><span class="w">     </span><span class="no">cmp</span><span class="w">    </span><span class="mi">0x8</span><span class="p">(</span><span class="nv">%rdi</span><span class="p">),</span><span class="nv">%eax</span><span class="w"></span>
-<span class="w">   </span><span class="err">0</span><span class="nf">x0008</span><span class="w"> </span><span class="err">&lt;+</span><span class="mi">8</span><span class="err">&gt;</span><span class="p">:</span><span class="w">     </span><span class="no">setl</span><span class="w">   </span><span class="nv">%al</span><span class="w"></span>
-<span class="w">   </span><span class="err">0</span><span class="nf">x000b</span><span class="w"> </span><span class="err">&lt;+</span><span class="mi">11</span><span class="err">&gt;</span><span class="p">:</span><span class="w">    </span><span class="no">movzbl</span><span class="w"> </span><span class="nv">%al</span><span class="p">,</span><span class="nv">%eax</span><span class="w"></span>
-<span class="w">   </span><span class="err">0</span><span class="nf">x000e</span><span class="w"> </span><span class="err">&lt;+</span><span class="mi">14</span><span class="err">&gt;</span><span class="p">:</span><span class="w">    </span><span class="no">retq</span><span class="w"></span>
+<div class="highlight"><pre><span></span><code><span class="nf">Dump</span> <span class="no">of</span> <span class="no">assembler</span> <span class="no">code</span> <span class="no">for</span> <span class="no">function</span> <span class="no">func_que_recebe_array</span><span class="p">:</span>
+   <span class="err">0</span><span class="nf">x0000</span> <span class="err">&lt;+</span><span class="mi">0</span><span class="err">&gt;</span><span class="p">:</span>     <span class="no">mov</span>    <span class="mi">0x4</span><span class="p">(</span><span class="nv">%rdi</span><span class="p">),</span><span class="nv">%eax</span>
+   <span class="err">0</span><span class="nf">x0003</span> <span class="err">&lt;+</span><span class="mi">3</span><span class="err">&gt;</span><span class="p">:</span>     <span class="no">add</span>    <span class="p">(</span><span class="nv">%rdi</span><span class="p">),</span><span class="nv">%eax</span>
+   <span class="err">0</span><span class="nf">x0005</span> <span class="err">&lt;+</span><span class="mi">5</span><span class="err">&gt;</span><span class="p">:</span>     <span class="no">cmp</span>    <span class="mi">0x8</span><span class="p">(</span><span class="nv">%rdi</span><span class="p">),</span><span class="nv">%eax</span>
+   <span class="err">0</span><span class="nf">x0008</span> <span class="err">&lt;+</span><span class="mi">8</span><span class="err">&gt;</span><span class="p">:</span>     <span class="no">setl</span>   <span class="nv">%al</span>
+   <span class="err">0</span><span class="nf">x000b</span> <span class="err">&lt;+</span><span class="mi">11</span><span class="err">&gt;</span><span class="p">:</span>    <span class="no">movzbl</span> <span class="nv">%al</span><span class="p">,</span><span class="nv">%eax</span>
+   <span class="err">0</span><span class="nf">x000e</span> <span class="err">&lt;+</span><span class="mi">14</span><span class="err">&gt;</span><span class="p">:</span>    <span class="no">retq</span>
 </code></pre></div>
 <div class="admonition exercise text short">
 <p class="admonition-title">Exercise</p>
@@ -808,16 +774,16 @@ Em <code>&lt;+03&gt;</code> o acesso é <code>aux = vec[0] + aux</code>.</p>
 </div>
 <h2 id="exercicio-3-funcao-first_neg">Exercício 3 - função <code>first_neg</code><a class="headerlink" href="#exercicio-3-funcao-first_neg" title="Permanent link">&para;</a></h2>
 <p>Veja agora o código abaixo e responda.</p>
-<div class="highlight"><pre><span></span><code><span class="nf">Dump</span><span class="w"> </span><span class="no">of</span><span class="w"> </span><span class="no">assembler</span><span class="w"> </span><span class="no">code</span><span class="w"> </span><span class="no">for</span><span class="w"> </span><span class="no">function</span><span class="w"> </span><span class="no">first_neg</span><span class="p">:</span><span class="w"></span>
-<span class="w">   </span><span class="err">0</span><span class="nf">x0000</span><span class="w"> </span><span class="err">&lt;+</span><span class="mi">0</span><span class="err">&gt;</span><span class="p">:</span><span class="w">     </span><span class="no">mov</span><span class="w">    </span><span class="no">$0x0</span><span class="p">,</span><span class="nv">%eax</span><span class="w"></span>
-<span class="w">   </span><span class="err">0</span><span class="nf">x0005</span><span class="w"> </span><span class="err">&lt;+</span><span class="mi">5</span><span class="err">&gt;</span><span class="p">:</span><span class="w">     </span><span class="no">cmp</span><span class="w">    </span><span class="nv">%esi</span><span class="p">,</span><span class="nv">%eax</span><span class="w"></span>
-<span class="w">   </span><span class="err">0</span><span class="nf">x0007</span><span class="w"> </span><span class="err">&lt;+</span><span class="mi">7</span><span class="err">&gt;</span><span class="p">:</span><span class="w">     </span><span class="no">jge</span><span class="w">    </span><span class="mh">0x17</span> <span class="p">&lt;</span><span class="no">first_neg</span><span class="p">+</span><span class="mi">23</span><span class="p">&gt;</span><span class="w"></span>
-<span class="w">   </span><span class="err">0</span><span class="nf">x0009</span><span class="w"> </span><span class="err">&lt;+</span><span class="mi">9</span><span class="err">&gt;</span><span class="p">:</span><span class="w">     </span><span class="no">movslq</span><span class="w"> </span><span class="nv">%eax</span><span class="p">,</span><span class="nv">%rdx</span><span class="w"></span>
-<span class="w">   </span><span class="err">0</span><span class="nf">x000c</span><span class="w"> </span><span class="err">&lt;+</span><span class="mi">12</span><span class="err">&gt;</span><span class="p">:</span><span class="w">    </span><span class="no">cmpl</span><span class="w">   </span><span class="no">$0x0</span><span class="p">,(</span><span class="nv">%rdi</span><span class="p">,</span><span class="nv">%rdx</span><span class="p">,</span><span class="mi">4</span><span class="p">)</span><span class="w"></span>
-<span class="w">   </span><span class="err">0</span><span class="nf">x0010</span><span class="w"> </span><span class="err">&lt;+</span><span class="mi">16</span><span class="err">&gt;</span><span class="p">:</span><span class="w">    </span><span class="no">js</span><span class="w">     </span><span class="mh">0x17</span> <span class="p">&lt;</span><span class="no">first_neg</span><span class="p">+</span><span class="mi">23</span><span class="p">&gt;</span><span class="w"></span>
-<span class="w">   </span><span class="err">0</span><span class="nf">x0012</span><span class="w"> </span><span class="err">&lt;+</span><span class="mi">18</span><span class="err">&gt;</span><span class="p">:</span><span class="w">    </span><span class="no">add</span><span class="w">    </span><span class="no">$0x1</span><span class="p">,</span><span class="nv">%eax</span><span class="w"></span>
-<span class="w">   </span><span class="err">0</span><span class="nf">x0015</span><span class="w"> </span><span class="err">&lt;+</span><span class="mi">21</span><span class="err">&gt;</span><span class="p">:</span><span class="w">    </span><span class="no">jmp</span><span class="w">    </span><span class="mh">0x5</span> <span class="p">&lt;</span><span class="no">first_neg</span><span class="p">+</span><span class="mi">5</span><span class="p">&gt;</span><span class="w"></span>
-<span class="w">   </span><span class="err">0</span><span class="nf">x0017</span><span class="w"> </span><span class="err">&lt;+</span><span class="mi">23</span><span class="err">&gt;</span><span class="p">:</span><span class="w">    </span><span class="no">repz</span><span class="w"> </span><span class="no">retq</span><span class="w"></span>
+<div class="highlight"><pre><span></span><code><span class="nf">Dump</span> <span class="no">of</span> <span class="no">assembler</span> <span class="no">code</span> <span class="no">for</span> <span class="no">function</span> <span class="no">first_neg</span><span class="p">:</span>
+   <span class="err">0</span><span class="nf">x0000</span> <span class="err">&lt;+</span><span class="mi">0</span><span class="err">&gt;</span><span class="p">:</span>     <span class="no">mov</span>    <span class="no">$0x0</span><span class="p">,</span><span class="nv">%eax</span>
+   <span class="err">0</span><span class="nf">x0005</span> <span class="err">&lt;+</span><span class="mi">5</span><span class="err">&gt;</span><span class="p">:</span>     <span class="no">cmp</span>    <span class="nv">%esi</span><span class="p">,</span><span class="nv">%eax</span>
+   <span class="err">0</span><span class="nf">x0007</span> <span class="err">&lt;+</span><span class="mi">7</span><span class="err">&gt;</span><span class="p">:</span>     <span class="no">jge</span>    <span class="mh">0x17</span> <span class="p">&lt;</span><span class="no">first_neg</span><span class="p">+</span><span class="mi">23</span><span class="p">&gt;</span>
+   <span class="err">0</span><span class="nf">x0009</span> <span class="err">&lt;+</span><span class="mi">9</span><span class="err">&gt;</span><span class="p">:</span>     <span class="no">movslq</span> <span class="nv">%eax</span><span class="p">,</span><span class="nv">%rdx</span>
+   <span class="err">0</span><span class="nf">x000c</span> <span class="err">&lt;+</span><span class="mi">12</span><span class="err">&gt;</span><span class="p">:</span>    <span class="no">cmpl</span>   <span class="no">$0x0</span><span class="p">,(</span><span class="nv">%rdi</span><span class="p">,</span><span class="nv">%rdx</span><span class="p">,</span><span class="mi">4</span><span class="p">)</span>
+   <span class="err">0</span><span class="nf">x0010</span> <span class="err">&lt;+</span><span class="mi">16</span><span class="err">&gt;</span><span class="p">:</span>    <span class="no">js</span>     <span class="mh">0x17</span> <span class="p">&lt;</span><span class="no">first_neg</span><span class="p">+</span><span class="mi">23</span><span class="p">&gt;</span>
+   <span class="err">0</span><span class="nf">x0012</span> <span class="err">&lt;+</span><span class="mi">18</span><span class="err">&gt;</span><span class="p">:</span>    <span class="no">add</span>    <span class="no">$0x1</span><span class="p">,</span><span class="nv">%eax</span>
+   <span class="err">0</span><span class="nf">x0015</span> <span class="err">&lt;+</span><span class="mi">21</span><span class="err">&gt;</span><span class="p">:</span>    <span class="no">jmp</span>    <span class="mh">0x5</span> <span class="p">&lt;</span><span class="no">first_neg</span><span class="p">+</span><span class="mi">5</span><span class="p">&gt;</span>
+   <span class="err">0</span><span class="nf">x0017</span> <span class="err">&lt;+</span><span class="mi">23</span><span class="err">&gt;</span><span class="p">:</span>    <span class="no">repz</span> <span class="no">retq</span>
 </code></pre></div>
 <div class="admonition exercise text long">
 <p class="admonition-title">Exercise</p>
@@ -856,7 +822,7 @@ Em  <code>&lt;first_neg+12&gt;</code>, usa-se <code>%rdi</code> para <strong>lei
 
 <span class="w">        </span><span class="n">res</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="n">res</span><span class="w"> </span><span class="o">+</span><span class="w"> </span><span class="mi">1</span><span class="p">;</span><span class="w"></span>
 
-<span class="w">    </span><span class="k">goto</span><span class="w"> </span><span class="n">loop</span><span class="o">:</span><span class="w"></span>
+<span class="w">    </span><span class="k">goto</span><span class="w"> </span><span class="nl">loop</span><span class="p">:</span><span class="w"></span>
 
 <span class="w">    </span><span class="nl">retorno</span><span class="p">:</span><span class="w"></span>
 <span class="w">        </span><span class="k">return</span><span class="w"> </span><span class="n">res</span><span class="p">;</span><span class="w"></span>
@@ -879,17 +845,25 @@ Em  <code>&lt;first_neg+12&gt;</code>, usa-se <code>%rdi</code> para <strong>lei
 </code></pre></div>
 </div>
 </div>
+                
+                  
+                    
 
-  <hr>
-<div class="md-source-file">
+<hr>
+<div class="md-source-date">
   <small>
     
-      Last update:
-      <span class="git-revision-date-localized-plugin git-revision-date-localized-plugin-date">March 28, 2022</span>
+      Last update: <span class="git-revision-date-localized-plugin git-revision-date-localized-plugin-date">March 24, 2022</span>
       
     
   </small>
 </div>
+                  
+                
+              
+              
+                
+
 
               
             </article>
@@ -898,7 +872,8 @@ Em  <code>&lt;first_neg+12&gt;</code>, usa-se <code>%rdi</code> para <strong>lei
         
       </main>
       
-        <footer class="md-footer">
+        
+<footer class="md-footer">
   
     <nav class="md-footer__inner md-grid" aria-label="Footer">
       
@@ -937,15 +912,16 @@ Em  <code>&lt;first_neg+12&gt;</code>, usa-se <code>%rdi</code> para <strong>lei
   
   <div class="md-footer-meta md-typeset">
     <div class="md-footer-meta__inner md-grid">
-      <div class="md-copyright">
-  
-  
-    Made with
-    <a href="https://squidfunk.github.io/mkdocs-material/" target="_blank" rel="noopener">
-      Material for MkDocs
-    </a>
-  
-</div>
+      <div class="md-footer-copyright">
+        
+        Made with
+        <a href="https://squidfunk.github.io/mkdocs-material/" target="_blank" rel="noopener">
+          Material for MkDocs
+        </a>
+        
+
+
+      </div>
       
     </div>
   </div>
@@ -955,10 +931,10 @@ Em  <code>&lt;first_neg+12&gt;</code>, usa-se <code>%rdi</code> para <strong>lei
     <div class="md-dialog" data-md-component="dialog">
       <div class="md-dialog__inner md-typeset"></div>
     </div>
-    <script id="__config" type="application/json">{"base": "../..", "features": [], "search": "../../assets/javascripts/workers/search.5e67fbfe.min.js", "translations": {"clipboard.copied": "Copied to clipboard", "clipboard.copy": "Copy to clipboard", "search.config.lang": "en", "search.config.pipeline": "trimmer, stopWordFilter", "search.config.separator": "[\\s\\-]+", "search.placeholder": "Search", "search.result.more.one": "1 more on this page", "search.result.more.other": "# more on this page", "search.result.none": "No matching documents", "search.result.one": "1 matching document", "search.result.other": "# matching documents", "search.result.placeholder": "Type to start searching", "search.result.term.missing": "Missing", "select.version.title": "Select version"}}</script>
+    <script id="__config" type="application/json">{"base": "../..", "features": [], "translations": {"clipboard.copy": "Copy to clipboard", "clipboard.copied": "Copied to clipboard", "search.config.lang": "en", "search.config.pipeline": "trimmer, stopWordFilter", "search.config.separator": "[\\s\\-]+", "search.placeholder": "Search", "search.result.placeholder": "Type to start searching", "search.result.none": "No matching documents", "search.result.one": "1 matching document", "search.result.other": "# matching documents", "search.result.more.one": "1 more on this page", "search.result.more.other": "# more on this page", "search.result.term.missing": "Missing", "select.version.title": "Select version"}, "search": "../../assets/javascripts/workers/search.709b4209.min.js", "version": null}</script>
     
     
-      <script src="../../assets/javascripts/bundle.c44cc438.min.js"></script>
+      <script src="../../assets/javascripts/bundle.febc23d1.min.js"></script>
       
         <script src="https://cdnjs.cloudflare.com/ajax/libs/js-yaml/4.0.0/js-yaml.min.js"></script>
       
