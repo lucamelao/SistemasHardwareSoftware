@@ -8,7 +8,7 @@ int main () {
     int counter = 3;
 
     f1 = fork();
-    if (f1 == 0){
+    if (f1 == 0){  
         counter++;
     }
 
